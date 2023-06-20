@@ -1,0 +1,66 @@
+*{
+    background-color: rgb(238, 198, 38);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tex{
+    color: aliceblue;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cir{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.28);
+    color: rgba(0, 0, 0, 0.41);
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 46%;
+}
+#tex{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin-top: 25%;
+    margin-left: 40%;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.container{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(243, 74, 74);
+    position: absolute;
+    bottom: 0;
+}
+
+  .box {
+    background:
+     linear-gradient(to top right   ,rgb(238, 198, 38) 49.5%, transparent 50%) top right,
+     linear-gradient(to top left    ,rgb(238, 198, 38) 49.5%, transparent 50%) top left,
+     linear-gradient(to bottom right,rgb(238, 198, 38) 49.5%, transparent 50%) bottom right,
+     linear-gradient(to bottom left ,rgb(238, 198, 38) 49.5%, transparent 50%) bottom left;
+    background-size:50% 50%;
+    background-repeat:no-repeat;
+    
+    width:260px;  
+    display:inline-block;
+    margin:5px;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 126.5px;
+    margin-left: 44%;
+  }
+  .box:before {
+    content:"";
+    display:block;
+    padding-top:57.73%; 
+    }
+  
